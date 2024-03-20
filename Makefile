@@ -6,7 +6,7 @@
 #    By: tlegendr <tlegendr@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2023/11/08 16:14:59 by tlegendr          #+#    #+#              #
-#    Updated: 2024/03/17 18:50:43 by tlegendr         ###   ########.fr        #
+#    Updated: 2024/03/20 23:29:59 by tlegendr         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -14,7 +14,7 @@
 NAME = push_swap
 
 # Source files
-SRC = push_swap.c push_cmd.c target_utils.c
+SRC = push_swap.c push_cmd1.c push_cmd2.c error_check.c small_stack1.c stack_utils.c tab_utils.c target_utils.c utils.c
 # Object files derived from source files 
 OBJ = $(SRC:.c=.o)
 
